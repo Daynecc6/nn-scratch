@@ -12,8 +12,8 @@ def init_params(layer_dims, seed=None):
     L = len(layer_dims) - 1  # Number of layers
     
     for l in range(1, L+1):
-        params[f"W{l}"] = np.random.randn(layer_dims[l], layer_dims[l-1]) # Random small weights
-        params[f"b{l}"] = .1  # Bias initialized to zero
+        params[f"W{l}"] = np.random.randn(layer_dims[l], layer_dims[l-1]) # Random weights
+        params[f"b{l}"] = .1  # Bias initialized
     
     return params
 
