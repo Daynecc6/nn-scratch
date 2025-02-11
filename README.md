@@ -1,4 +1,4 @@
-# Neural Network Derivation in Plain English
+# Neural Network Derivation
 
 This explanation walks you through how a simple neural network works—from setting up its parameters to updating them using gradient descent.
 
